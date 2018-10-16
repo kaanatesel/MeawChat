@@ -2,6 +2,16 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    block stylesheets
+      link(rel='stylesheet', href='/stylesheets/index.css')
+
   body
-    block content
+    div(ng-app='meawchat',ng-coak)
+      block content
+
+
+    
+    block javascripts
+      script(src='/angular/angular.min.js')
+      script(src='/javascripts/main.js')

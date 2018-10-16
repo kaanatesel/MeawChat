@@ -1,0 +1,17 @@
+{
+  "name": "meawchat",
+  "description": "",
+  "main": "",
+  "authors": [
+    "kaan <kaanatesel99@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/kaanatesel/MeawChat",
+  "dependencies": {
+    "angular": "^1.7.5"
+  }
+}
